@@ -16,6 +16,15 @@
   color: #F99926;
   text-align: center;
 }
+#leftNav .adLogo img:hover{
+  -webkit-transition: 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 #leftNav .adLogo h4{
   margin-top: 15px;
 }

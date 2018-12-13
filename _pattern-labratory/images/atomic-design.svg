@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 157 156" style="enable-background:new 0 0 157 156;" xml:space="preserve">
+	 viewBox="0 0 154.15 154.18" style="enable-background:new 0 0 154.15 154.18;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#F99926;}
 </style>
 <g>
-	<circle class="st0" cx="79" cy="78" r="41"/>
+	<circle class="st0" cx="77.07" cy="77.1" r="41"/>
 	<g>
-		<path d="M79,155c-42.46,0-77-34.54-77-77S36.54,1,79,1s77,34.54,77,77S121.46,155,79,155z M79,11c-36.94,0-67,30.06-67,67
-			c0,36.94,30.06,67,67,67c36.94,0,67-30.06,67-67C146,41.06,115.94,11,79,11z"/>
+		<path d="M77.07,154.1c-42.46,0-77-34.54-77-77s34.54-77,77-77s77,34.54,77,77S119.53,154.1,77.07,154.1z M77.07,10.1
+			c-36.94,0-67,30.06-67,67s30.06,67,67,67s67-30.06,67-67S114.01,10.1,77.07,10.1z"/>
 	</g>
-	<circle class="st0" cx="28.5" cy="18.5" r="15.5"/>
+	<circle class="st0" cx="26.57" cy="17.6" r="15.5"/>
 </g>
 </svg>
