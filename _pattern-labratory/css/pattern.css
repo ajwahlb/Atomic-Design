@@ -1,0 +1,59 @@
+@import "leftnav.css";
+@import "navbar.css";
+@import "prism.css";
+@import "button.css";
+@import "input.css";
+@import "accordion.css";
+@import "bfb.css";
+@import "tables.css";
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700i');
+
+:root {
+  --dark-blue: #2b4d77;
+  --primary-blue: #428bca;
+  --primary-blue-hover: #336fa2;
+  --light-blue: #c2d7e8;
+  --green: #4eb08d;
+  --green-hover: #42a280;
+  --danger: #d7503d;
+  --danger-hover: #bf4433;
+  --white: #fff;
+  --grey: #aaa9a9;
+  --grey-hover: #919191;
+  --dark-grey: #333;
+  --light-grey: #efefef;
+  --letter-spacing: .05em;
+}
+
+body{
+  background-image: linear-gradient(160deg, #ffecd2 0%, #ffcbba 100%);
+  background-attachment: fixed;
+  padding-bottom:10em;
+}
+.special{
+  font-family: 'Playfair Display', serif;
+}
+.container-fluid{
+  padding: 0;
+}
+.main-content{
+  padding: 25px 40px 25px 300px;
+}
+.header{
+  margin: 1em 0;
+  border-bottom:1px solid #fff;
+}
+.container{
+  padding-top: 40px;
+}
+.element-wrapper {
+  margin: 0 0 10rem 0;
+}
+.style-section {
+    margin-bottom: 25px;
+}
+@media(max-width:767px){
+  .main-content{
+    padding: 25px 40px;
+  }
+}

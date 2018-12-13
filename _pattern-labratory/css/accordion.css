@@ -1,0 +1,7 @@
+.card{
+  margin-bottom: 5px;
+}
+.card-header{
+  padding:0;
+  border-bottom: none;
+}

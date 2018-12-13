@@ -1,0 +1,75 @@
+/* responsive tables */
+
+thead {
+  background-color: #333;
+  color: #fff;
+}
+.table{
+  background-color: transparent;
+  box-shadow: var(--box-shadow);
+}
+
+.table.applicationForms a{
+  text-decoration: underline;
+}
+.table tbody tr:nth-of-type(odd) {
+    background-color: rgba(255,255,255,1);
+}
+.table tbody tr:nth-of-type(even) {
+    background-color: rgba(249,249,249,1);
+}
+#styleTable td{
+  border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  vertical-align:middle;
+}
+#styleTable td:last-child{
+  border-right: none;
+}
+
+.table td,
+.table th{
+  border-top: none;
+}
+
+/* renewal summary table styles */
+.renewal-summary>.table{
+  box-shadow: none !important;
+}
+.renewal-summary>.table tbody tr:nth-of-type(odd),
+.renewal-summary>.table tbody tr:nth-of-type(even) {
+    background-color: transparent !important;
+}
+.renewal-summary tfoot{
+  border-top:2px solid #333;
+}
+@media screen and (max-width: 768px) {
+  #styleTable {
+    border: 0;
+  }
+  #styleTable thead {
+    display: none;
+  }
+  #styleTable tr {
+    display: block;
+    border-bottom: 5px solid #ccc;
+  }
+   tfoot table tr {
+      border-bottom: transparent;
+  }
+  #styleTable td {
+    display: block;
+    text-align: right;
+  }
+  #styleTable td:last-child {
+    border-bottom: 0;
+    padding-bottom: 2.2rem;
+  }
+  #styleTable td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    width: 100%;
+    text-align: left;
+  }
+}

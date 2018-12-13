@@ -1,0 +1,10 @@
+.navbar.main{
+  z-index: 5;
+  width: 100%;
+}
+.navbar.main{
+  padding: 0;
+}
+.navbar.main.bg-dark{
+  background-color: #000 !important;
+}

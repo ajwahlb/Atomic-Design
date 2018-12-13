@@ -1,0 +1,72 @@
+<div id="date" class="element-wrapper">
+  <div class="header">
+    <h1 class="special">Date Picker</h1>
+    <p>Pick a date, any date.</p>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="style-section">
+        <div class="row">
+          <div class="col-6">
+            <div class="form-group">
+              <label class="control-label">Date of Birth</label>
+              <input id="datepicker" name="datepicker" type='text' class="form-control" placeholder="Date" />
+            </div>
+            <div class="clearfix"></div>
+            <a href="css/DatePickerX.min.css" target="_blank">
+              <button class="btn btn-blue">
+                Copy CSS
+              </button>
+            </a>
+            <a href="js/DatePickerX.min.js" target="_blank">
+              <button class="btn btn-blue">
+                Copy JS
+              </button>
+            </a>
+          </div>
+          <div class="col-6">
+
+<pre class="line-numbers"><code class="language-html">&lt;div class="form-group"&gt;
+  &lt;label class="control-label"&gt;Date of Birth&lt;/label&gt;
+  &lt;input id="datepicker" name="datepicker" type='text' class="form-control" /&gt;
+&lt;/div&gt;
+
+&lt;script&gt;
+  document.getElementById('datepicker').DatePickerX.init({
+    mondayFirst      : false,
+    format           : 'mm/dd/yyyy',
+    minDate          : new Date(0, 0),
+    maxDate          : new Date(9999, 11, 31),
+    weekDayLabels    : ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
+    shortMonthLabels : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    singleMonthLabels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+    todayButton      : true,
+    todayButtonLabel : 'Today',
+    clearButton      : true,
+    clearButtonLabel : 'Clear'
+  });
+&lt;/script&gt;</code></pre>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.getElementById('datepicker').DatePickerX.init({
+    mondayFirst      : false,
+    format           : 'mm/dd/yyyy',
+    minDate          : new Date(0, 0),
+    maxDate          : new Date(9999, 11, 31),
+    weekDayLabels    : ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
+    shortMonthLabels : ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+    singleMonthLabels: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+    todayButton      : true,
+    todayButtonLabel : 'Today',
+    clearButton      : true,
+    clearButtonLabel : 'Clear'
+  });
+</script>
+<!-- &lt; &gt; -->

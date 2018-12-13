@@ -1,0 +1,47 @@
+/* Button styles */
+button.btn{
+  padding: .375rem .9rem;
+  margin-bottom: 4px;
+}
+button.btn.btn-sm{
+  padding: .1rem .5rem;
+}
+button.btn-blue{
+  color: #fff;
+  background-color: var(--primary-blue);
+}
+button.btn-green{
+  color: #fff;
+  background-color: var(--green);
+}
+button.btn-grey{
+  color: #fff;
+  background-color: var(--grey);
+}
+button.btn-black{
+  color: #fff;
+  background-color: var(--dark-grey);
+}
+button.btn-white{
+  color: #333;
+  background-color: var(--white);
+  border: 1px solid #999;
+}
+button.btn-danger{
+  background-color: var(--danger);
+}
+button.btn-blue:hover{
+  background-color: var(--primary-blue-hover);
+}
+button.btn-green:hover{
+  background-color: var(--green-hover);
+}
+button.btn-grey:hover{
+  background-color: var(--grey-hover);
+}
+button.btn-white:hover{
+  background-color: rgb(232, 232, 232);
+}
+button.btn-danger:hover{
+  background-color: var(--danger-hover);
+}

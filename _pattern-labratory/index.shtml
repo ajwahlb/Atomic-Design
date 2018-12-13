@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- css -->
+    <!--#include virtual="_includes/css.html" -->
+
+    <!-- JS -->
+    <!--#include virtual="_includes/js.html" -->
+    <title>Pattern Library</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- top nav -->
+      <!--#include virtual="_includes/top-nav.html" -->
+
+      <div class="row m-0">
+        <!-- left nav -->
+        <!--#include virtual="_includes/leftnav.html" -->
+        <div class="col-sm main-content">
+          <!-- Typography -->
+          <!--#include virtual="_includes/typography.html" -->
+
+          <!-- Buttons -->
+          <!--#include virtual="_includes/buttons.html" -->
+
+          <!-- Alerts -->
+          <!--#include virtual="_includes/alerts.html" -->
+
+          <!-- Inputs -->
+          <!--#include virtual="_includes/inputs.html" -->
+
+          <!-- Datepicker -->
+          <!--#include virtual="_includes/datepicker.html" -->
+
+          <!-- Navbar -->
+          <!--#include virtual="_includes/navbar.html" -->
+
+          <!-- Accordion -->
+          <!--#include virtual="_includes/accordion.html" -->
+
+          <!-- Cards -->
+          <!--#include virtual="_includes/cards.html" -->
+
+          <!-- Modal -->
+          <!--#include virtual="_includes/modal.html" -->
+
+          <!-- Big button screen -->
+          <!--#include virtual="_includes/bfb.html" -->
+
+          <!-- Tables -->
+          <!--#include virtual="_includes/tables.html" -->
+
+          <!-- Header -->
+          <!--#include virtual="_includes/header.html" -->
+
+          <!-- Wizard -->
+          <!--#include virtual="_includes/wizard.html" -->
+
+          <!-- Footer -->
+          <!--#include virtual="_includes/footer.html" -->
+        </div>
+
+
+
+      </div> <!-- End row -->
+    </div> <!-- End Container-fluid -->
+
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+      $('li.apex').click(function(event){
+        var isApex = $(event.target).is('.apex');
+        if(isApex){
+          $('ul.sub', this).slideToggle();
+        }
+      });
+    });
+
+    </script>
+  </body>
+</html>
